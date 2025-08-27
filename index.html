@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!-- Put AFTER main.css -->
+<style>
+	/* Use your banner as the top hero background */
+	#intro{
+	  position: relative;
+	  background-image: url("images/BANNER.png") !important;
+	  background-size: contain !important;
+	  background-position: center !important;
+	  background-repeat: no-repeat !important;
+	}
+  
+	
+	/* Keep the hero text above the overlay */
+	#intro > *{ position: relative; z-index: 1; }
+  </style>
+   
+<html>
+	<head>
+		<style>
+			/* --- Global background override --- */
+			:root { --tan: #874f06; }         /* pick your tan; try #f5e6d3 or #efe2cf too */
+		  
+			html, body {
+			  background-color: var(--tan) !important;
+			}
+		  
+			/* Remove the theme’s dark gradient overlay */
+			body::before {
+			  content: none !important;       /* turns off the pseudo-element */
+			  background: none !important;    /* extra safety */
+			}
+		  
+			/* Keep content cards clean */
+			#wrapper { background: transparent !important; }
+		  </style>
+		  
+		<title>Obi Oleru </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		  
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+			<!-- Intro -->
+        <div id="intro" style="text-align: left;">
+        <h1><br /></h1>
+        <p class="align-left">Analyst skilled in Python, R, SQL, Tableau, and Excel</p>
+        <ul class="actions">
+        <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+        </ul>
+    </div>
+
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">OBI</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+						  <li><a href="index.html">Portfolio</a></li>
+						  <li><a href="https://docs.google.com/document/d/1agap_AZkamcOk3ifp3Y6v6y_J69ODATAMh2Fh3GwaWQ/edit?usp=sharing" target="_blank">Resume</a></li>
+						  <li><a href="https://public.tableau.com/app/profile/annetta.oleru/vizzes" target="_blank">Tableau</a></li>
+						  <li><a href="https://www.linkedin.com/in/annetta-oleru-3b749a298/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						  <li><a href="https://github.com/OBOptics" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					  </nav>
+					  
+				<!-- Main -->
+				<style>
+					/* Left-align the Massively intro */
+					#intro { 
+					  text-align: left;             /* text alignment */
+					  align-items: flex-start;       /* flex cross-axis (horizontal) */
+					  justify-content: center;       /* keep it vertically centered */
+					  padding-left: 2rem;            /* nudge off the edge */
+					}
+					#intro .actions { 
+					  justify-content: flex-start;   /* move the button left too */
+					}
+					/* Optional: make it a bit wider on desktop */
+					@media (min-width: 980px){
+					  #intro { padding-left: 4rem; }
+					}
+				  </style>
+				  
+					<div id="main">
+
+  
+						<!-- Featured Post -->
+						<article class="post featured">
+							<header class="major">
+							  <h2><a href="dete.html">DETE Exit Survey — Drivers of Turnover</a></h2>
+							  <p>Tools: Tableau Public • Excel</p>
+							</header>
+						  
+							<!-- Featured image generated from your dataset -->
+							<a href="dete.html" class="image main">
+							  <img src="images/dete_separation_types.png" alt="DETE separation types distribution" />
+							</a>
+						  
+							<p>
+							  Who’s leaving, why, and when? This analysis blends the DETE exit survey with
+							  tenure and age patterns to reveal where resignations, retirements, and terminations
+							  cluster—plus where dissatisfaction is highest—so HR can target retention and
+							  transition programs.
+							</p>
+						  
+							<ul class="actions special">
+							  <li><a href="dete.html" class="button large">View Project</a></li>
+							</ul>
+						  </article>
+						  
+				
+						<!-- Posts -->
+						<section class="posts">
+							<article>
+								<header>
+								  <h2><a href="Longitudinal.html">Longitudinal Survey Insights — Income, Sociability &amp; Health</a></h2>
+								  <p>Tools: R, Excel/Analytic Solver</p>
+								</header>
+								<a href="Longitudinal.html" class="image fit">
+								  <img src="images/edu_income_scatter.png" alt="Education vs Income (from the project)" />
+								</a>
+								<p>Data-driven insights into income drivers, sociability, and health using regression, classification, and clustering.</p>
+								<ul class="actions special">
+								  <li><a href="Longitudinal.html" class="button">View Project</a></li>
+								</ul>
+							  </article>
+							  <article>
+								<header>
+								  <h2><a href="NYC.html">NYC Collisions — Crash Patterns & Risk Signals</a></h2>
+								  <p>Tools: Python (pandas, seaborn, statsmodels), Folium</p>
+								</header>
+								<a href="NYC.html" class="image fit">
+								  <img src="images/nyc_from_notebook_01.png" alt="Crashes by hour of day (NYC)" />
+								</a>
+								<p>When, where, and why crashes happen—hourly peaks, borough hot spots, top factors, and seasonality—translated into actions.</p>
+								<ul class="actions special">
+								  <li><a href="NYC.html" class="button">View Project</a></li>
+								</ul>
+							  </article>
+							  
+							  
+							  <article>
+								<header>
+								  <h2><a href="HighestPaidAthletes.html">World’s Highest-Paid Athletes — Interactive Tableau</a></h2>
+								  <p>Tools: Tableau Public • Data: Athlete, Sport, Total, On-field, Off-field</p>
+								</header>
+								<a href="HighestPaidAthletes.html" class="image fit">
+								  <img src="images/sport_share_bar.png" alt="Sport share of athletes’ earnings (portfolio graphic)" />
+								</a>
+								<p>Explore on- vs off-field earnings, sport mix, and endorsement-heavy profiles with an interactive dashboard and supporting visuals.</p>
+								<ul class="actions special">
+								  <li><a href="HighestPaidAthletes.html" class="button">View Dashboard</a></li>
+								</ul>
+							  </article>	  
+						<!-- Posts -->
+							<section class="posts">
+								<header class="major">
+									
+									<h2><a href="socialmediausage.html">Discovering Social Media App Co‑Usage Patterns</a></h2>
+									<p>Tools: R, Excel </p>
+								</header>
+								<a href="socialmediausage.html" class="image main"><img src= "images/Rules.SocialMediaUsage.png" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="socialmediausage.html" class="button large">View Project</a></li>
+								</ul>
+							</section>
+							<section class="posts">
+								<header class="major">
+									
+									<h2><a href="underarmour.html">Under Armour Purchase vs Age</a></h2>
+									<p>Tools: R, Excel </p>
+								</header>
+								<a href="underarmour.html" class="image main"><img src= "images/ua_prob_vs_age.png" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="underarmour.html" class="button large">View Project</a></li>
+								</ul>
+							</section>
+
+					
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="https://formspree.io/f/manjlqlw" class="alt">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p><br />
+								Fort Worth, TX </p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="tel:+14058375436">(405) 837-5436</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:optimalbusinessinsights@gmail.com">optimalbusinessinsights@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+
+									<li><a href="https://github.com/OBOptics" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; OBI</li><li>Company: <a href="https://html5up.net">Optimal Business Insights</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
